@@ -1733,14 +1733,14 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-valid,
 .was-validated .custom-select:valid,
 .was-validated .form-control:valid {
-    border-color: #868e96
+    border-color: #868e96;
 }
 
 .custom-select.is-valid:focus,
 .form-control.is-valid:focus,
 .was-validated .custom-select:valid:focus,
 .was-validated .form-control:valid:focus {
-    box-shadow: 0 0 0 .2rem rgba(40, 167, 69, .25)
+    box-shadow: 0 0 0 .2rem rgba(197, 76, 228, 0.25)
 }
 
 .custom-select.is-valid~.invalid-feedback,
@@ -1756,7 +1756,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .form-check-input.is-valid+.form-check-label,
 .was-validated .form-check-input:valid+.form-check-label {
-    color: #28a745
+    color: #868e96
 }
 
 .custom-control-input.is-valid~.custom-control-indicator,
@@ -1766,12 +1766,12 @@ select.form-control-lg:not([size]):not([multiple]) {
 
 .custom-control-input.is-valid~.custom-control-description,
 .was-validated .custom-control-input:valid~.custom-control-description {
-    color: #28a745
+    color: #868e96
 }
 
 .custom-file-input.is-valid~.custom-file-control,
 .was-validated .custom-file-input:valid~.custom-file-control {
-    border-color: #28a745
+    border-color: #868e96
 }
 
 .custom-file-input.is-valid~.custom-file-control::before,
@@ -2020,33 +2020,33 @@ fieldset[disabled] a.btn {
 
 .btn-success {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745
+    background-color: #868e96;
+    border-color: #868e96;
 }
 
 .btn-success:hover {
     color: #fff;
-    background-color: #218838;
-    border-color: #1e7e34
+    background-color: #868e96;
+    border-color: #868e96;
 }
 
 .btn-success.focus,
 .btn-success:focus {
-    box-shadow: 0 0 0 3px rgba(40, 167, 69, .5)
+    box-shadow: 0 0 0 3px rgba(70, 71, 71, 0.5)
 }
 
 .btn-success.disabled,
 .btn-success:disabled {
-    background-color: #28a745;
-    border-color: #28a745
+    background-color: #868e96;
+    border-color: #868e96
 }
 
 .btn-success.active,
 .btn-success:active,
 .show>.btn-success.dropdown-toggle {
-    background-color: #218838;
+    background-color: #868e96;
     background-image: none;
-    border-color: #1e7e34
+    border-color: #868e96;
 }
 
 .btn-info {
@@ -2272,18 +2272,18 @@ fieldset[disabled] a.btn {
     color: #28a745;
     background-color: transparent;
     background-image: none;
-    border-color: #28a745
+    border-color: #868e96
 }
 
 .btn-outline-success:hover {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745
+    background-color: #868e96;
+    border-color: #868e96
 }
 
 .btn-outline-success.focus,
 .btn-outline-success:focus {
-    box-shadow: 0 0 0 3px rgba(40, 167, 69, .5)
+    box-shadow: 0 0 0 3px rgba(47, 49, 48, 0.5)
 }
 
 .btn-outline-success.disabled,
@@ -2296,8 +2296,8 @@ fieldset[disabled] a.btn {
 .btn-outline-success:active,
 .show>.btn-outline-success.dropdown-toggle {
     color: #fff;
-    background-color: #28a745;
-    border-color: #28a745
+    background-color: #868e96;
+    border-color: #868e96
 }
 
 .btn-outline-info {
