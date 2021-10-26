@@ -1733,7 +1733,7 @@ select.form-control-lg:not([size]):not([multiple]) {
 .form-control.is-valid,
 .was-validated .custom-select:valid,
 .was-validated .form-control:valid {
-    border-color: #28a745
+    border-color: #868e96
 }
 
 .custom-select.is-valid:focus,
